@@ -1,7 +1,6 @@
 import {FC} from 'react';
 import logo from '../../assets/Search.svg'
 
-
 export const Input: FC = () => {
     return (
         <div className="input__container">

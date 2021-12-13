@@ -1,0 +1,75 @@
+.main__container {
+  .main__profile {
+    position: absolute;
+    width: 292.08px;
+    height: 431.98px;
+    left: 57px;
+    top: 112px;
+
+    img {
+      position: absolute;
+      width: 280px;
+      height: 280px;
+      left: 0;
+      top: 0;
+    }
+
+    h2 {
+      position: absolute;
+      height: 34px;
+      left: 0;
+      right: 122px;
+      top: 308px;
+      font-family: Inter, sans-serif;
+      font-weight: 600;
+      font-size: 26px;
+    }
+
+    a {
+      position: absolute;
+      height: 28.74px;
+      left: 0;
+      right: 211px;
+      top: 354px;
+      font-family: Inter, sans-serif;
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    .main__followers {
+      img {
+        position: absolute;
+        left: 0;
+        top: 404px;
+        width: 24px;
+        height: 24px;
+      }
+      span {
+        position: absolute;
+        top: 407.98px;
+        left: 32px;
+        font-family: Inter, sans-serif;
+        font-size: 16px;
+        color: #000000;
+      }
+    }
+
+    .main__following {
+      img {
+        position: absolute;
+        left: 167px;
+        top: 404px;
+        width: 24px;
+        height: 24px;
+      }
+      span {
+        position: absolute;
+        top: 407.98px;
+        left: 195px;
+        font-family: Inter, sans-serif;
+        font-size: 16px;
+        color: #000000;
+      }
+    }
+  }
+}
