@@ -1,3 +1,9 @@
-import {createStore, Store} from 'redux';
+import {applyMiddleware, combineReducers, createStore} from 'redux';
+import thunk from 'redux-thunk';
 
-// export const store: Store<RootStoreType> = createStore(reducers)
+const reducers = combineReducers({
+
+})
+
+export const store = createStore(reducers, applyMiddleware(thunk));
+export type AppStateType = ReturnType<typeof reducers>;
