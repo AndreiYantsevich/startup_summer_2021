@@ -1,0 +1,213 @@
+@import '../../style/custom/colors';
+@import '../../style/custom/type';
+@import '../../style/custom/mixin';
+
+.initial-state,
+.user-not-found {
+  height: 100%;
+  width: 100%;
+}
+
+.initial-state_title,
+.user-not-found_title {
+  @include h3();
+  text-align: center;
+  color: $light-gray;
+
+  width: 220px;
+  height: 62px;
+  margin-top: 65px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.repo-not-found_title {
+  @include h3();
+  text-align: center;
+  color: $light-gray;
+
+  height: 30px;
+  padding-top: 48px;
+}
+
+.user-table {
+  display: flex;
+  width: 100%;
+}
+
+.initial-state_img,
+.user-not-found_img,
+.repo-not-found_img {
+  width: 65px;
+  height: 65px;
+
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+}
+
+.user-info-container {
+  width: 30%;
+  padding-top: 40px;
+}
+
+.user-info {
+  margin-left: 61px;
+}
+
+.user-info_photo {
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.user_photo {
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.user-info_name {
+  @include h2();
+  padding-top: 35px;
+}
+
+.user-info_login {
+  @include h4();
+  line-height: 22px;
+  color: $navy-blue;
+
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+
+.user-info_followers,
+.user-info_following {
+  @include h5();
+  line-height: 24px;
+}
+
+.user-info_followers {
+  margin-right: 20px;
+}
+
+.user-info_followers-icon,
+.user-info_following-icon {
+  margin-right: 8px;
+}
+
+.progress-bar_user {
+  z-index: 1;
+  position: absolute;
+  top: 25%;
+  left: 7%;
+  transform: translate(-7%, -25%);
+}
+
+//Repositories
+.repo,
+.repo-not-found {
+  width: 70%;
+  padding-top: 40px;
+}
+
+.repo {
+  margin-left: 10px;
+}
+
+.repo-not-found {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.repo_title {
+  @include h1();
+  margin-bottom: 29px;
+}
+
+.repo_info {
+  width: 877px;
+  margin-right: 10px;
+}
+
+.repo_info-common {
+  margin-right: 10px;
+  padding: 24px 32px;
+  background-color: $white;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+
+.repo_info-common a {
+  text-decoration: none;
+}
+
+.repo_info__title {
+  font-family: $font-family-base;
+  font-size: 24px;
+  font-weight: $font-weight-medium;
+  line-height: 29px;
+
+  margin-bottom: 16px;
+
+  color: $navy-blue;
+  text-transform: lowercase;
+}
+
+.repo_info__description {
+  @include h5();
+  line-height: 19px;
+  text-transform: lowercase;
+}
+
+.progress-bar_repo {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+//Pagination
+.pagination-container {
+  max-width: 500px;
+  height: 25px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+
+  color: $light-gray;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.pagination {
+  display: flex;
+  width: 70%;
+  margin-bottom: 28px;
+  margin-top: 24px;
+  margin-left: auto;
+
+  list-style: none;
+  outline: none;
+  position: static;
+
+  li {
+    margin: auto;
+  }
+}
+
+li.pagination__link--active {
+  border: 1px solid $navy-blue;
+  border-radius: 3px;
+  padding: 2px 6px;
+  background-color: $navy-blue;
+
+  color: $white;
+}

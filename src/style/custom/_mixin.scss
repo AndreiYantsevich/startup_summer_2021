@@ -1,0 +1,40 @@
+@mixin h1() {
+  font-family: $font-family-base;
+  font-size: $h1-font-size;
+  font-weight: $font-weight-bolder;
+  line-height: 42px;
+}
+
+@mixin h2() {
+  font-family: $font-family-base;
+  font-size: $h2-font-size;
+  line-height: 34px;
+  font-weight: $font-weight-bolder;
+  line-height: 34px;
+  color: $black;
+}
+
+@mixin h3() {
+  font-family: $font-family-base;
+  font-size: $h3-font-size;
+  line-height: 30px;
+}
+
+@mixin h4() {
+  font-family: $font-family-base;
+  font-size: $h4-font-size;
+}
+
+@mixin h5() {
+  font-family: $font-family-base;
+  font-size: $h5-font-size;
+  color: $black;
+}
+
+@mixin h6() {
+  font-family: $font-family-base;
+  font-size: $h6-font-size;
+  line-height: 1.063rem;
+  letter-spacing: 0.01em;
+  color: $black;
+}

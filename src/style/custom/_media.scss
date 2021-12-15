@@ -1,0 +1,182 @@
+@media (max-width: 1400px) {
+  .repo_info {
+    width: 800px;
+  }
+}
+
+@media (max-width: 1210px) {
+  .repo_info {
+    width: 700px;
+  }
+  .repo {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .user-info_photo {
+    width: 200px;
+    height: 200px;
+  }
+  .user-info_name {
+    font-size: 24px;
+  }
+  .repo_title {
+    font-size: 26px;
+  }
+  .repo_info__title {
+    font-size: 24px;
+  }
+  .user-info_followers,
+  .user-info_following {
+    display: block;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 974px) {
+  .repo_info {
+    width: 570px;
+  }
+}
+
+@media (max-width: 860px) {
+  .user-info-container {
+    width: 100%;
+  }
+  .user-table {
+    display: block;
+  }
+  .user-info_followers,
+  .user-info_following {
+    display: inline;
+    font-size: 16px;
+  }
+  .user-info_photo {
+    width: 250px;
+    height: 250px;
+  }
+  .user-info_name {
+    font-size: 26px;
+  }
+
+  .repo-not-found {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+  }
+
+  .repo-not-found_img {
+    width: 55px;
+    height: 55px;
+  }
+  .repo-not-found_title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .progress-bar_repo {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+  }
+}
+
+@media (max-width: 610px) {
+  .initial-state_title,
+  .user-not-found_title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .initial-state_img,
+  .user-not-found_img {
+    width: 50px;
+    height: 50px;
+  }
+  .pagination-container {
+    font-size: 12px;
+  }
+  .user-info_photo {
+    width: 200px;
+    height: 200px;
+  }
+  .user-info_name {
+    font-size: 24px;
+  }
+  .repo_title {
+    font-size: 24px;
+  }
+  .repo_info__title {
+    font-size: 22px;
+  }
+  .repo_info {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .repo_info {
+    width: 400px;
+  }
+  .repo_title {
+    font-size: 22px;
+  }
+  .repo_info__title {
+    font-size: 20px;
+  }
+  .repo_info__description {
+    font-size: 14px;
+  }
+  .repo-not-found_title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 435px) {
+  .repo_info {
+    width: 350px;
+  }
+  .repo-not-found_img {
+    width: 50px;
+    height: 50px;
+  }
+  .repo-not-found_title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 380px) {
+  .repo_info {
+    width: 290px;
+  }
+  .pagination-container {
+    flex-direction: column;
+  }
+  .pagination {
+    margin-left: 0px;
+  }
+  .repo-not-found {
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+  }
+  .progress-bar_repo {
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+  }
+}
+
+@media (max-width: 320px) {
+  .repo-not-found {
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+  }
+  .progress-bar_repo {
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+  }
+}
