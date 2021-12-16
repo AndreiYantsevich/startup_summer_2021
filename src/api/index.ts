@@ -1,8 +1,9 @@
-import axios from 'axios';
+import axios, {AxiosRequestConfig} from 'axios';
 
 const instance = axios.create({
     baseURL: 'https://api.github.com/',
-})
+    headers: {"Accept": "application/vnd.github.v3+json"}
+} as AxiosRequestConfig)
 
 export type UsersType = {
     login: string,
@@ -138,7 +139,7 @@ export type UserReposType = Array<ReposType>
 
 export const API = {
     getUser(username: string) {
-        return instance.get<UsersType>(`users/${username}`).then(res => res.data)
+        return instance.get<UsersType>(`users/${username}`)
     },
     getRepo(username: string, per_page = 1 as number, page = 10 as number,
             type = '' as string, sort = '' as string, direction = '' as string) {

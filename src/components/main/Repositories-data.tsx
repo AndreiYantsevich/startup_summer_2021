@@ -1,8 +1,8 @@
-import {FC} from 'react';
+import {FC, memo} from 'react';
 import ReactPaginate from 'react-paginate';
 
 
-export const RepositoriesData: FC = () => {
+export const RepositoriesData: FC = memo(() => {
     return (
         <>
             <div className="repo">
@@ -34,4 +34,4 @@ export const RepositoriesData: FC = () => {
             </div>
         </>
     )
-}
+})
