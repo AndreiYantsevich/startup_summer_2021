@@ -1,3 +1,29 @@
+# GitHub Users. 
+
+#### Task: 
+https://startup-summer-task.paralect.com/
+
+#### Author:
+- [Андрей @yantsev1ch](https://github.com/yantsev1ch) - Frontend developer
+
+#### Deploy: 
+-
+
+
+### Stack:  
+1. React - https://reactjs.org/  
+2. Redux, redux-thunk, redux-devtools-extension - https://redux.js.org/  
+3. Typescript - https://www.typescriptlang.org/
+
+### Used libs:  
+1. react-paginate - https://www.npmjs.com/package/react-paginate
+2. material-ui - https://material-ui.com/
+3. axios - https://github.com/axios/axios
+
+### Linters:
+- prettier
+- eslint.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
