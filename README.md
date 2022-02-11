@@ -7,7 +7,7 @@ https://startup-summer-task.paralect.com/
 - [Андрей @yantsev1ch](https://github.com/yantsev1ch) - Frontend developer
 
 #### Deploy: 
--
+- https://yantsev1ch.github.io/startup_summer_2021/
 
 
 ### Stack:  
